@@ -6,7 +6,7 @@ function Header(props) {
       <div className="flex items-center  justify-between mt-6 mx-4  lg:mx-6">
         <h1 className=" font-bold text-3xl">MOVE'ON</h1>
         <nav className="mx-auto">
-          <ul className="flex justify-center items-center gap-12 text-lg ">
+          <ul className="flex justify-center items-center gap-14 text-lg ">
             <li>Accueil</li>
             <li>A propos</li>
             <li>Tarifs</li>

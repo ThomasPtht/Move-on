@@ -8,7 +8,7 @@ function Banner() {
         className="relative bg-cover h-screen"
         style={{ backgroundImage: `url('${banner}')` }}
       >
-        <div className="absolute top-32 m-10">
+        <div className="absolute top-32 my-14 ml-16">
           <h2 className="text-5xl font-bold mb-10">
             Rester actif n’a jamais <br />
             été aussi simple{" "}
@@ -36,7 +36,7 @@ function Banner() {
             <div className="pr-4 mx-6 border-r border-gray-300"></div>
             <div className="flex flex-col items-center">
               <p>10M+</p>
-              <p>calories</p>
+              <p>calories brûlées</p>
             </div>
             <div className="pr-4 mx-6 border-r border-gray-300"></div>
             <div className="flex flex-col items-center">
