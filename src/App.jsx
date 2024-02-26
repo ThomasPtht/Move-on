@@ -5,6 +5,9 @@ import Plans from "./components/Plans";
 import gym from "../src/assets/images/woman-helping-man-gym.jpg";
 import Programs from "./components/Programs";
 import Datas from "./components/Datas";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
+import CTA from "./components/CTA";
 
 function App() {
   return (
@@ -13,10 +16,12 @@ function App() {
         <Header />
         <Banner />
         <About />
-        {/* <img className="h-2/6 " src={gym} alt="" /> */}
         <Programs />
         <Datas />
+        <Testimonials />
         <Plans />
+        <CTA />
+        <Footer />
       </div>
     </>
   );

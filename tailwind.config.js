@@ -7,9 +7,10 @@ export default {
         jaldi: ["Jaldi", "sans-serif"],
         roboto: ["Roboto mono", "sans-serif"],
       },
-    },
-    clipPath: {
-      custom: "polygon(91% 9%, 90% 10%, 29% 82%, 18% 71%)",
+
+      clipPath: {
+        custom: "polygon(91% 9%, 90% 10%, 29% 82%, 18% 71%)",
+      },
     },
   },
   plugins: [],

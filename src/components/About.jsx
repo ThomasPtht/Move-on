@@ -3,10 +3,10 @@ import aboutPic from "../assets/images/sportsman-sportswoman.jpg";
 
 function About(props) {
   return (
-    <div className="m-10">
-      <div className="relative flex">
-        <img className="w-3/6 h-80  rounded-xl" src={aboutPic} alt="" />
-        <div className="absolute flex bottom-16 right-1/2 transform translate-x-1/2  w-3:6 h-auto p-3 bg-white rounded-xl shadow-xl">
+    <div className="m-16">
+      <div className="relative flex flex-col md:flex-row">
+        <img className=" w-3/6 h-80  rounded-xl" src={aboutPic} alt="" />
+        <div className="absolute flex bottom-1/4 left-1/4  h-auto p-3 bg-white rounded-xl shadow-xl">
           <div className="flex flex-col">
             <p className="text-xs mb-2">Aujourd'hui</p>
             <p className="font-roboto font-bold">850 cal</p>
@@ -34,11 +34,17 @@ function About(props) {
             <div className="h-14 w-4 bg-yellow-500 rounded-sm"></div>
           </div>
         </div>
-        <div className=" space-y-9 m-8">
-          <h2 className="text-black text-3xl font-bold ml-10">
-            SOYEZ-PRÊTS A ATTEINDRE VOS OBJECTIFS
+        <div className="space-y-4 m-8">
+          <h2 className=" text-4xl mb-6 font-extrabold text-gray-800 ml-10">
+            Soyez prêts à atteindre vos
+            <span
+              className="inline-block px-2 py-1 relative bg-blue-200 "
+              style={{ borderRadius: "91% 9% 90% 10% / 29% 82% 18% 71%" }}
+            >
+              objectifs
+            </span>
           </h2>
-          <p>
+          <p className="font-light text-gray-500">
             Découvrer un monde de programmes sur mesure, conçus pour vous aider
             à concrétiser vos objectifs de manière ciblée et efficace. Notre
             site web exploite les données que vous suivez de près afin de créer
@@ -49,9 +55,11 @@ function About(props) {
             Préparez-vous à transformer vos aspirations en réalité en accédant
             dès maintenant à votre plan gratuit.
           </p>
-          <button className="w-30 h-10 bg-blue-500 rounded-xl">
-            Accéder à votre plan gratuit
-          </button>
+          <div className="flex justify-center">
+            <button className="flex w-30 h-10 p-2 bg-blue-400 text-white rounded-xl">
+              Accéder à votre plan gratuit
+            </button>
+          </div>
         </div>
       </div>
     </div>
