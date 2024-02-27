@@ -3,10 +3,14 @@ import aboutPic from "../assets/images/sportsman-sportswoman.jpg";
 
 function About(props) {
   return (
-    <div className="m-16">
-      <div className="relative flex flex-col md:flex-row">
-        <img className=" w-3/6 h-80  rounded-xl" src={aboutPic} alt="" />
-        <div className="absolute flex bottom-1/4 left-1/4  h-auto p-3 bg-white rounded-xl shadow-xl">
+    <div className="m-4 md:my-28 flex flex-col md:flex-row">
+      <div className="relative flex items-center ">
+        <img
+          className="w-2/3 lg:w-auto h-auto rounded-xl"
+          src={aboutPic}
+          alt=""
+        />
+        <div className="absolute flex top-1/6 right-20  p-3 bg-white rounded-xl shadow-xl">
           <div className="flex flex-col">
             <p className="text-xs mb-2">Aujourd'hui</p>
             <p className="font-roboto font-bold">850 cal</p>
@@ -33,32 +37,32 @@ function About(props) {
             <div className="h-14 w-4 bg-yellow-500 rounded-sm"></div>
           </div>
         </div>
-        <div className="space-y-4 m-8">
-          <h2 className=" text-4xl mb-6 font-extrabold text-gray-800 ml-10">
-            Soyez prêts à atteindre vos{" "}
-            <span
-              className="inline-block px-2 py-1 relative bg-indigo-400 text-white "
-              style={{ borderRadius: "91% 9% 90% 10% / 29% 82% 18% 71%" }}
-            >
-              objectifs
-            </span>
-          </h2>
-          <p className="font-light text-gray-500">
-            Découvrer un monde de programmes sur mesure, conçus pour vous aider
-            à concrétiser vos objectifs de manière ciblée et efficace. Notre
-            site web exploite les données que vous suivez de près afin de créer
-            des plans parfaitement adaptés à vos besoins spécifiques. Que vous
-            cherchiez à améliorer votre condition physique, à atteindre des
-            objectifs de perte de poids ou à adopter un mode de vie plus sain,
-            nos programmes sont élaborés pour vous accompagner à chaque étape.
-            Préparez-vous à transformer vos aspirations en réalité en accédant
-            dès maintenant à votre plan gratuit.
-          </p>
-          <div className="flex justify-center">
-            <button className="w-30 h-10 px-6 bg-indigo-400 text-white rounded-lg">
-              Mon programme offert
-            </button>
-          </div>
+      </div>
+      <div className="space-y-4 ml-10 mt-8">
+        <h2 className=" text-4xl mb-6 font-extrabold text-gray-800 ml-10">
+          Soyez prêts à atteindre vos{" "}
+          <span
+            className="inline-block px-2 py-1 relative bg-indigo-400 text-white "
+            style={{ borderRadius: "91% 9% 90% 10% / 29% 82% 18% 71%" }}
+          >
+            objectifs
+          </span>
+        </h2>
+        <p className="font-light text-gray-500 sm:text-lg">
+          Découvrer un monde de programmes sur mesure, conçus pour vous aider à
+          concrétiser vos objectifs de manière ciblée et efficace. Notre site
+          web exploite les données que vous suivez de près afin de créer des
+          plans parfaitement adaptés à vos besoins spécifiques. Que vous
+          cherchiez à améliorer votre condition physique, à atteindre des
+          objectifs de perte de poids ou à adopter un mode de vie plus sain, nos
+          programmes sont élaborés pour vous accompagner à chaque étape.
+          Préparez-vous à transformer vos aspirations en réalité en accédant dès
+          maintenant à votre plan gratuit.
+        </p>
+        <div className="flex justify-center">
+          <button className="w-30 h-10 px-6 bg-indigo-400 text-white rounded-lg">
+            Mon programme offert
+          </button>
         </div>
       </div>
     </div>

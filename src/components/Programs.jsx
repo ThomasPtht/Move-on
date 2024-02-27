@@ -4,15 +4,12 @@ import running from "../assets/images/couple-jogging.jpg";
 import fitness from "../assets/images/woman-man-gym.jpg";
 import yoga from "../assets/images/woman-yoga.jpg";
 import gym from "../assets/images/man-training-gym.jpg";
-// import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 function Programs() {
   return (
-    // <Parallax pages={1} style={{ top: "0", left: "0" }}>
-    //   <ParallaxLayer offset={0} speed={2.5}></ParallaxLayer>
-    <section>
+    <section className="my-40">
       <div className="text-center">
-        <h2 className="text-4xl font-extrabold text-gray-800">
+        <h2 className="text-2xl md:text-4xl font-extrabold text-gray-800">
           Maximisez votre{" "}
           <span
             className="inline-block px-2 py-1 relative bg-indigo-400 text-white "
