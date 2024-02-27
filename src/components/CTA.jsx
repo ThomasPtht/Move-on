@@ -2,7 +2,7 @@ import React from "react";
 
 function CTA(props) {
   return (
-    <section class="bg-blue-50 my-10 lg:py-12 lg:flex lg:justify-center">
+    <section class=" my-10 lg:py-12 lg:flex lg:justify-center">
       <div class="overflow-hidden bg-white dark:bg-gray-900 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
         <div class="lg:w-1/2">
           <div
@@ -16,7 +16,7 @@ function CTA(props) {
 
         <div class="max-w-xl px-6 py-16 lg:max-w-5xl lg:w-1/2">
           <h2 class="text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">
-            Démarrez votre <span class="text-blue-500">Aventure</span>
+            Démarrez votre <span class="text-indigo-400">Aventure</span>
           </h2>
 
           <p class="mt-4 text-gray-500 dark:text-gray-300">
@@ -30,7 +30,7 @@ function CTA(props) {
           <div class="inline-flex w-full mt-6 sm:w-auto">
             <a
               href="#"
-              class="inline-flex items-center justify-center w-full px-6 py-2 text-sm text-white duration-300 bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
+              class="inline-flex items-center justify-center w-full px-6 py-2 text-sm text-white duration-300 bg-indigo-400 rounded-lg hover:bg-indigo-600 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
             >
               Commencer maintenant
             </a>

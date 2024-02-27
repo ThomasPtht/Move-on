@@ -2,7 +2,7 @@ import React from "react";
 
 function CardProgram({ image, title, text }) {
   return (
-    <div className="relative my-10 w-64 h-auto rounded-md bg-blue-400 shadow-lg">
+    <div className="relative my-10 w-64 h-auto rounded-md bg-gray-800 shadow-lg">
       <img src={image} className="w-full object-cover rounded-md" alt="" />
 
       <div className="p-4">

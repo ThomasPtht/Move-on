@@ -4,6 +4,7 @@ function Testimonials(props) {
   return (
     <section class="bg-white">
       <svg
+        className="w-auto h-auto"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1200 120"
@@ -31,7 +32,7 @@ function Testimonials(props) {
         ></path>
       </svg>
       <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        <h2 class="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+        <h2 class="pb-10 text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           Nos avis clients vérifiés
         </h2>
 
@@ -242,7 +243,7 @@ function Testimonials(props) {
         </div>
       </div>
       <svg
-        className="w-full h-10"
+        className="w-auto h-auto"
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1200 120"

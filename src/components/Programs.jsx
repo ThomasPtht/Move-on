@@ -15,7 +15,7 @@ function Programs() {
         <h2 className="text-4xl font-extrabold text-gray-800">
           Maximisez votre{" "}
           <span
-            className="inline-block px-2 py-1 relative bg-blue-200 "
+            className="inline-block px-2 py-1 relative bg-indigo-400 text-white "
             style={{ borderRadius: "91% 9% 90% 10% / 29% 82% 18% 71%" }}
           >
             potentiel

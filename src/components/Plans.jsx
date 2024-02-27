@@ -2,7 +2,7 @@ import React from "react";
 
 function Plans(props) {
   return (
-    <section class="bg-white dark:bg-blue-50">
+    <section class="bg-gray-800 dark:bg-blue-50">
       <svg
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ function Plans(props) {
           fill-opacity="1"
         ></path>
       </svg>
-      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class=" px-4 mx-auto max-w-screen-xl  lg:px-6">
         <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           <h2 class="mb-4 text-4xl  font-extrabold text-gray-800 ">
             Nous avons un plan pour vous !
@@ -42,7 +42,7 @@ function Plans(props) {
         </div>
         <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-2 xl:gap-4 lg:space-y-0">
           {/* <!-- Pricing Card --> */}
-          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow  xl:p-8">
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-white bg-gray-800 rounded-lg border border-gray-100 shadow  xl:p-8">
             <h3 class="mb-4 text-2xl font-semibold">Découverte</h3>
             <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               La meilleure option pour vous remettre en forme
@@ -82,7 +82,7 @@ function Plans(props) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>No setup, or hidden fees</span>
+                <span>Plan de remise en forme</span>
               </li>
               <li class="flex items-center space-x-3">
                 {/* <!-- Icon --> */}
@@ -98,28 +98,9 @@ function Plans(props) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>
-                  Team size: <span class="font-semibold">1 developer</span>
-                </span>
+                <span>Accès à 30 exercices expliqués en vidéo</span>
               </li>
-              <li class="flex items-center space-x-3">
-                {/* <!-- Icon --> */}
-                <svg
-                  class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                  fill="#B79DEC"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span>
-                  Premium support: <span class="font-semibold">6 months</span>
-                </span>
-              </li>
+
               <li class="flex items-center space-x-3">
                 {/* <!-- Icon --> */}
                 <svg
@@ -155,8 +136,8 @@ function Plans(props) {
               personnalisé
             </p>
             <div class="flex justify-center items-baseline my-8">
-              <span class="mr-2 text-5xl font-extrabold">$99</span>
-              <span class="text-gray-500 dark:text-gray-400">/month</span>
+              <span class="mr-2 text-5xl font-extrabold">39€</span>
+              <span class="text-gray-500 dark:text-gray-400">/mois</span>
             </div>
             {/* <!-- List --> */}
             <ul role="list" class="mb-8 space-y-4 text-left">
@@ -190,7 +171,7 @@ function Plans(props) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>No setup, or hidden fees</span>
+                <span>Plan personnalisé selon votre objectif</span>
               </li>
               <li class="flex items-center space-x-3">
                 {/* <!-- Icon --> */}
@@ -206,9 +187,7 @@ function Plans(props) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>
-                  Team size: <span class="font-semibold">10 developers</span>
-                </span>
+                <span>Accès à +100 exercices expliqués en vidéo </span>
               </li>
               <li class="flex items-center space-x-3">
                 {/* <!-- Icon --> */}
@@ -224,9 +203,7 @@ function Plans(props) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>
-                  Premium support: <span class="font-semibold">24 months</span>
-                </span>
+                <span>Tableau de bord statistiques</span>
               </li>
               <li class="flex items-center space-x-3">
                 {/* <!-- Icon --> */}
@@ -242,9 +219,7 @@ function Plans(props) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>
-                  Free updates: <span class="font-semibold">24 months</span>
-                </span>
+                <span>Suivi mensuel par un coach via iMessenger</span>
               </li>
             </ul>
             <a
@@ -261,8 +236,8 @@ function Plans(props) {
               L'accompagnement ultime avec conseils d'un coach expert
             </p>
             <div class="flex justify-center items-baseline my-8">
-              <span class="mr-2 text-5xl font-extrabold">$499</span>
-              <span class="text-gray-500 dark:text-gray-400">/month</span>
+              <span class="mr-2 text-5xl font-extrabold">79€</span>
+              <span class="text-gray-500 dark:text-gray-400">/mois</span>
             </div>
             {/* <!-- List --> */}
             <ul role="list" class="mb-8 space-y-4 text-left">
@@ -296,7 +271,7 @@ function Plans(props) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>No setup, or hidden fees</span>
+                <span>Plan personnalisé selon votre objectif</span>
               </li>
               <li class="flex items-center space-x-3">
                 {/* Icon */}
@@ -312,9 +287,7 @@ function Plans(props) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>
-                  Team size: <span class="font-semibold">100+ developers</span>
-                </span>
+                <span>Accès à +200 exercices expliqués en vidéo</span>
               </li>
               <li class="flex items-center space-x-3">
                 {/* <!-- Icon --> */}
@@ -330,9 +303,7 @@ function Plans(props) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>
-                  Premium support: <span class="font-semibold">36 months</span>
-                </span>
+                <span>Tableau de bord détaillé de vos statistiques</span>
               </li>
               <li class="flex items-center space-x-3">
                 {/* <!-- Icon --> */}
@@ -348,9 +319,7 @@ function Plans(props) {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>
-                  Free updates: <span class="font-semibold">36 months</span>
-                </span>
+                <span>Suivi hebdo. par un coach via iMessenger</span>
               </li>
             </ul>
             <a

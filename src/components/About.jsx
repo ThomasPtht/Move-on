@@ -22,7 +22,6 @@ function About(props) {
                   d="M21.92 6.62a1 1 0 0 0-.54-.54A1 1 0 0 0 21 6h-5a1 1 0 0 0 0 2h2.59L13 13.59l-3.29-3.3a1 1 0 0 0-1.42 0l-6 6a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0L9 12.41l3.29 3.3a1 1 0 0 0 1.42 0L20 9.41V12a1 1 0 0 0 2 0V7a1 1 0 0 0-.08-.38"
                 />
               </svg>
-
               <p className="text-green-400 text-sm ml-2 font-semibold">+3,2%</p>
             </div>
           </div>
@@ -36,9 +35,9 @@ function About(props) {
         </div>
         <div className="space-y-4 m-8">
           <h2 className=" text-4xl mb-6 font-extrabold text-gray-800 ml-10">
-            Soyez prêts à atteindre vos
+            Soyez prêts à atteindre vos{" "}
             <span
-              className="inline-block px-2 py-1 relative bg-blue-200 "
+              className="inline-block px-2 py-1 relative bg-indigo-400 text-white "
               style={{ borderRadius: "91% 9% 90% 10% / 29% 82% 18% 71%" }}
             >
               objectifs
@@ -56,8 +55,8 @@ function About(props) {
             dès maintenant à votre plan gratuit.
           </p>
           <div className="flex justify-center">
-            <button className="flex w-30 h-10 p-2 bg-blue-400 text-white rounded-xl">
-              Accéder à votre plan gratuit
+            <button className="w-30 h-10 px-6 bg-indigo-400 text-white rounded-lg">
+              Mon programme offert
             </button>
           </div>
         </div>
