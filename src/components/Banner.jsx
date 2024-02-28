@@ -13,7 +13,7 @@ function Banner() {
           height: "750px",
         }}
       >
-        <div className="my-36 md:my-32 ml-4 md:ml-16">
+        <div className="my-36 ml-4 md:ml-16">
           <Fade direction="up">
             <h2 className="text-4xl sm:text-5xl font-bold mb-14">
               Rester actif n’a jamais <br />

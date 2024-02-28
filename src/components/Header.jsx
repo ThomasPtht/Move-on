@@ -21,7 +21,7 @@ function Header(props) {
 
   return (
     <div className="absolute z-10 top-0 left-0 w-full text-white font-jaldi">
-      <div className="flex justify-between items-baseline mt-2 sm:mt-6 mx-4  lg:mx-6">
+      <div className="flex justify-between items-center  mt-2 sm:mt-6 mx-4  lg:mx-6">
         <div className="flex items-center">
           <img className="w-9 mr-2" src={logo} alt="" />
           <h1 className=" font-bold text-3xl">MOVE'ON</h1>
@@ -113,7 +113,7 @@ function Header(props) {
           </svg>
         </button>
 
-        <nav className="hidden md:flex mx-auto">
+        <nav className="hidden md:flex mx-auto  items-center ">
           <ul className="flex justify-center items-center gap-14 text-lg ">
             <a href="#">
               <li className="hover:text-indigo-400 hover:scale-105 transition duration-200 ">

@@ -43,7 +43,9 @@ function Plans(props) {
         <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-2 xl:gap-4 lg:space-y-0">
           {/* <!-- Pricing Card --> */}
           <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-white bg-gray-800 rounded-lg border border-gray-100 shadow  xl:p-8">
-            <h3 class="mb-4 text-2xl font-semibold">Découverte</h3>
+            <h3 class="mb-4 text-2xl text-indigo-300 font-semibold">
+              Découverte
+            </h3>
             <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               La meilleure option pour vous remettre en forme
             </p>
@@ -101,7 +103,7 @@ function Plans(props) {
                 <span>Accès à 30 exercices expliqués en vidéo</span>
               </li>
 
-              <li class="flex items-center space-x-3">
+              <li class="flex items-center space-x-3 pb-9">
                 {/* <!-- Icon --> */}
                 <svg
                   class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
@@ -130,7 +132,9 @@ function Plans(props) {
           </div>
           {/* <!-- Pricing Card --> */}
           <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-            <h3 class="mb-4 text-2xl font-semibold">Standard</h3>
+            <h3 class="mb-4 text-2xl font-semibold text-indigo-300">
+              Standard
+            </h3>
             <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               Des fonctionnalités essentielles pour un accompagnement
               personnalisé
@@ -231,7 +235,7 @@ function Plans(props) {
           </div>
           {/* <!-- Pricing Card --> */}
           <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-            <h3 class="mb-4 text-2xl font-semibold">Premium</h3>
+            <h3 class="mb-4 text-2xl font-semibold text-indigo-300">Premium</h3>
             <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
               L'accompagnement ultime avec conseils d'un coach expert
             </p>

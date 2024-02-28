@@ -6,10 +6,10 @@ function CardProgram({ image, title, text }) {
       <img src={image} className="w-full object-cover rounded-md" alt="" />
 
       <div className="p-4">
-        <h3 className="font-semibold pb-2 text-white">{title}</h3>
+        <h3 className="font-semibold pb-2 text-blue-200">{title}</h3>
 
         <p className="text-white text-sm mb-8">{text}</p>
-        <button className="flex text-white text-sm absolute bottom-2">
+        <button className="flex text-blue-200 text-sm absolute bottom-2">
           En savoir plus{" "}
           <svg
             className="w-3 ml-2"

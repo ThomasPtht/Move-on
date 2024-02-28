@@ -4,7 +4,7 @@ import cta from "../assets/images/squats.jpg";
 function CTA(props) {
   return (
     <section class=" my-10 lg:py-16 lg:flex lg:justify-center">
-      <div class="bg-gray-900 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
+      <div class="bg-gray-800 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
         <div class="lg:w-1/2">
           <div
             class="h-64 bg-cover lg:h-full rounded-xl"
@@ -16,7 +16,7 @@ function CTA(props) {
 
         <div class="max-w-xl px-6 py-16 lg:max-w-5xl lg:w-1/2">
           <h2 class="text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">
-            Démarrez votre <span class="text-indigo-400">Aventure</span>
+            Démarrez votre <span class="text-indigo-300">Aventure</span>
           </h2>
 
           <p class="mt-4 text-gray-500 dark:text-gray-300">
