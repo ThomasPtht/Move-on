@@ -15,47 +15,25 @@ function Footer(props) {
             </a>
           </div>
 
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 ">
             <div>
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Resources
+                Aide
               </h2>
               <ul class="text-gray-600 dark:text-gray-400">
                 <li class="mb-4">
-                  <a href="https://flowbite.com" class="hover:underline">
-                    Flowbite
+                  <a href="" class="hover:underline">
+                    Nous contacter
                   </a>
                 </li>
                 <li>
-                  <a href="https://tailwindcss.com/" class="hover:underline">
-                    Tailwind CSS
+                  <a href="" class="hover:underline">
+                    Blog
                   </a>
                 </li>
               </ul>
             </div>
-            <div>
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Follow us
-              </h2>
-              <ul class="text-gray-600 dark:text-gray-400">
-                <li class="mb-4">
-                  <a
-                    href="https://github.com/themesberg/flowbite"
-                    class="hover:underline "
-                  >
-                    Github
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    class="hover:underline"
-                  >
-                    Discord
-                  </a>
-                </li>
-              </ul>
-            </div>
+
             <div>
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Legal
@@ -63,12 +41,17 @@ function Footer(props) {
               <ul class="text-gray-600 dark:text-gray-400">
                 <li class="mb-4">
                   <a href="#" class="hover:underline">
-                    Privacy Policy
+                    Mentions légales
+                  </a>
+                </li>
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">
+                    Politique de confidentialité
                   </a>
                 </li>
                 <li>
                   <a href="#" class="hover:underline">
-                    Terms &amp; Conditions
+                    Conditions d'utilisation
                   </a>
                 </li>
               </ul>

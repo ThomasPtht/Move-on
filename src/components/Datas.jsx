@@ -44,7 +44,7 @@ function Datas(props) {
             <p className="">Rythme cardiaque </p>
           </div>
         </div>
-        <div className="right-40 w-32 sm:w-40 absolute top-4 sm:left-44 flex items-center p-2 bg-white rounded-lg shadow-xl">
+        <div className="right-36 w-32 sm:w-40 absolute top-4 sm:left-40 flex items-center p-2 bg-white rounded-lg shadow-xl">
           <img className="w-4 h-4 sm:w-6 sm:h-6" src={fire} alt="" />
           <div className="flex flex-col ml-4 text-xs sm:text-sm">
             <p className=" font-roboto font-bold "> 14%</p>

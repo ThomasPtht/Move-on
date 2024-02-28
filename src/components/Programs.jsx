@@ -7,7 +7,7 @@ import gym from "../assets/images/man-training-gym.jpg";
 
 function Programs() {
   return (
-    <section className="my-40">
+    <section id="programs" className="my-40">
       <div className="text-center">
         <h2 className="text-2xl md:text-4xl font-extrabold text-gray-800">
           Maximisez votre{" "}

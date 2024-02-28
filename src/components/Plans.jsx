@@ -2,7 +2,7 @@ import React from "react";
 
 function Plans(props) {
   return (
-    <section class="bg-gray-800 dark:bg-blue-50">
+    <section id="price" class="bg-gray-800 dark:bg-blue-50">
       <svg
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
