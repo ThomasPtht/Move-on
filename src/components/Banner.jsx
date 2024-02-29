@@ -13,7 +13,7 @@ function Banner() {
           height: "750px",
         }}
       >
-        <div className="my-36 ml-4 md:ml-16">
+        <div className="my-36 ml-4 md:ml-24">
           <Fade direction="up">
             <h2 className="text-4xl sm:text-5xl font-bold mb-14">
               Rester actif n’a jamais <br />
@@ -28,12 +28,12 @@ function Banner() {
             </p>
           </Fade>
           <div className="flex  gap-4 sm:gap-8 font-bold ml-6">
-            <button class="w-36 h-10 bg-indigo-400 p-2 group relative overflow-hidden rounded-md bg-blue-500 px-6 text-neutral-50 transition">
+            <button class="w-30 sm:w-36 h-10 bg-indigo-400 p-2 group relative overflow-hidden rounded-md bg-blue-500 px-6 text-neutral-50 transition">
               <span>Commencer</span>
               <div class="absolute inset-0 h-full w-0 bg-white/30 transition-[width] group-hover:w-full"></div>
             </button>
 
-            <button class="w-36 h-10 text-indigo-400 border-2 border-indigo-400 bg-white p-2 group relative rounded-md border border-2">
+            <button class="w-32 sm:w-36 h-10 text-indigo-400 border-2 border-indigo-400 bg-white p-2 group relative rounded-md border border-2">
               <span class="relative inline-flex overflow-hidden">
                 <div class="text-indigo-400 translate-y-0 skew-y-0 transition duration-500 group-hover:-translate-y-[110%] group-hover:skew-y-12">
                   Mon plan

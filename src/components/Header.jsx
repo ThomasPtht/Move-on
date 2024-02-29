@@ -29,7 +29,7 @@ function Header(props) {
 
         {/* Burger Menu */}
         <div
-          className={`w-screen h-screen bg-blue-200 text-white text-2xl font-bold pt-8 gap-3 text-center fixed top-24 right-0 z-10 flex flex-col translate-x duration-1000 ease-in-out md:hidden  ${
+          className={`w-screen h-screen bg-blue-200 text-white text-2xl font-bold pt-20 gap-3 text-center fixed top-0 right-0 z-10 flex flex-col translate-x duration-1000 ease-in-out md:hidden  ${
             isOpen ? "block" : "hidden"
           }`}
         >
@@ -41,30 +41,28 @@ function Header(props) {
             >
               Accueil
             </li>
-            <a
-              href="/#about"
+
+            <li
               className="hover:bg-white hover:text-indigo-300"
+              to="#about"
               onClick={toggleNavbar}
             >
               A propos
-            </a>
-            <li>
-              <a
-                href="/#programs"
-                className="hover:bg-white hover:text-indigo-300"
-                onClick={toggleNavbar}
-              >
-                Programmes
-              </a>
             </li>
-            <li>
-              <a
-                href="#price"
-                className="hover:bg-white hover:text-indigo-300"
-                onClick={toggleNavbar}
-              >
-                Tarifs
-              </a>
+
+            <li
+              className="hover:bg-white hover:text-indigo-300"
+              to="#programs"
+              onClick={toggleNavbar}
+            >
+              Programmes
+            </li>
+            <li
+              className="hover:bg-white hover:text-indigo-300"
+              to="#price"
+              onClick={toggleNavbar}
+            >
+              Tarifs
             </li>
           </ul>
         </div>

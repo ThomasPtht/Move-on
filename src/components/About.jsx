@@ -7,7 +7,7 @@ function About(props) {
     <div id="about" className="m-4 md:my-28 flex flex-col lg:flex-row">
       <div className="relative flex items-center justify-center ">
         <img
-          className="w-full sm:w-2/3 lg:w-auto h-auto rounded-xl"
+          className="w-full sm:w-1/3 lg:w-auto h-auto rounded-xl"
           src={aboutPic}
           alt=""
         />
