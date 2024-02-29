@@ -10,7 +10,7 @@ function Banner() {
         style={{
           backgroundImage: `url('${banner}')`,
           backgroundPosition: "right",
-          height: "750px",
+          height: "800px",
         }}
       >
         <div className="my-36 ml-4 md:ml-24">
