@@ -42,7 +42,7 @@ function Plans(props) {
         </div>
         <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-2 xl:gap-4 lg:space-y-0">
           {/* <!-- Pricing Card --> */}
-          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-white bg-gray-800 rounded-lg border border-gray-100 shadow  xl:p-8">
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 class="mb-4 text-2xl text-indigo-300 font-semibold">
               Découverte
             </h3>

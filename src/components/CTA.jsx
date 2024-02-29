@@ -15,11 +15,11 @@ function CTA(props) {
         </div>
 
         <div class="max-w-xl px-6 py-16 lg:max-w-5xl lg:w-1/2">
-          <h2 class="text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">
+          <h2 class="text-2xl font-semibold text-white md:text-3xl">
             Démarrez votre <span class="text-indigo-300">Aventure</span>
           </h2>
 
-          <p class="mt-4 text-gray-500 dark:text-gray-300">
+          <p class="mt-4 text-gray-300">
             Rejoignez notre communauté dynamique et transformez chaque
             entraînement en une célébration de vos progrès. Ensemble, nous
             bâtirons une version plus forte, plus résiliente et plus
